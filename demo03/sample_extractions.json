@@ -1,0 +1,67 @@
+{
+  "_note": "Hand-written example of what the LLM returns for each chunk, in exactly the JSON format the prompt asks for. Used when you run WITHOUT --live, so the demo works offline. Notice the messy names (Kestrel Trading vs Kestrel Trading FZE, Petrov vs V. Petrov): step 3 cleans them up.",
+  "company_registry#1": {
+    "entities": [
+      {"name": "Apex Logistics Ltd", "type": "Company"},
+      {"name": "Northwind Holdings Limited", "type": "Company"},
+      {"name": "Northwind Holdings", "type": "Company"},
+      {"name": "Silverline Capital", "type": "Company"}
+    ],
+    "relations": [
+      {"source": "Apex Logistics Ltd", "relation": "OWNED_BY", "target": "Northwind Holdings Limited"},
+      {"source": "Northwind Holdings", "relation": "OWNED_BY", "target": "Silverline Capital"}
+    ]
+  },
+  "company_registry#2": {
+    "entities": [
+      {"name": "Silverline", "type": "Company"},
+      {"name": "V. Petrov", "type": "Person"},
+      {"name": "Maria Lopez", "type": "Person"}
+    ],
+    "relations": [
+      {"source": "V. Petrov", "relation": "DIRECTOR_OF", "target": "Silverline"},
+      {"source": "Maria Lopez", "relation": "DIRECTOR_OF", "target": "Silverline"}
+    ]
+  },
+  "news_article#1": {
+    "entities": [
+      {"name": "Viktor Petrov", "type": "Person"},
+      {"name": "Kestrel Trading FZE", "type": "Company"},
+      {"name": "Kestrel Trading", "type": "Company"},
+      {"name": "OFAC sanctions list", "type": "SanctionsList"}
+    ],
+    "relations": [
+      {"source": "Viktor Petrov", "relation": "DIRECTOR_OF", "target": "Kestrel Trading FZE"},
+      {"source": "Kestrel Trading", "relation": "ON_SANCTIONS_LIST", "target": "OFAC sanctions list"}
+    ]
+  },
+  "news_article#2": {
+    "entities": [
+      {"name": "Petrov", "type": "Person"},
+      {"name": "Silverline Capital Ltd", "type": "Company"}
+    ],
+    "relations": [
+      {"source": "Petrov", "relation": "DIRECTOR_OF", "target": "Silverline Capital Ltd"}
+    ]
+  },
+  "procurement_email#1": {
+    "entities": [
+      {"name": "Ravi Mehta", "type": "Person"},
+      {"name": "Apex Logistics", "type": "Company"}
+    ],
+    "relations": [
+      {"source": "Ravi Mehta", "relation": "APPROVED", "target": "Apex Logistics"}
+    ]
+  },
+  "procurement_email#2": {
+    "entities": [
+      {"name": "Cobalt IT Services", "type": "Company"},
+      {"name": "14 Harbour Road, Limassol", "type": "Address"},
+      {"name": "Kestrel Trading FZE", "type": "Company"}
+    ],
+    "relations": [
+      {"source": "Cobalt IT Services", "relation": "REGISTERED_AT", "target": "14 Harbour Road, Limassol"},
+      {"source": "Kestrel Trading FZE", "relation": "REGISTERED_AT", "target": "14 Harbour Road, Limassol"}
+    ]
+  }
+}

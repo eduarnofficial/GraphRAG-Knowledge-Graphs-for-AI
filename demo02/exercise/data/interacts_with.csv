@@ -1,0 +1,5 @@
+drug_a,drug_b,severity,effect
+D1,D2,high,Increased bleeding risk
+D1,D5,high,Increased bleeding risk
+D1,D6,high,Amiodarone raises warfarin levels
+D4,D5,moderate,Weaker blood-pressure control and kidney strain

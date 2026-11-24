@@ -1,0 +1,11 @@
+{
+  "engine": "mini",
+  "llm": "offline",
+  "model": "claude-opus-5-5",
+  "ollama_model": "qwen2.5:1.5b",
+  "ollama_url": "http://localhost:11434",
+  "ms_graphrag_root": "ms_graphrag",
+
+  "_help_engine": "mini = built-in local GraphRAG (runs anywhere, no install). microsoft = real Microsoft GraphRAG CLI (pip install graphrag, then index ms_graphrag). If microsoft is not installed or not indexed, the demo falls back to mini.",
+  "_help_llm": "offline = no LLM; template answers. ollama = free local LLM (first run: ollama run qwen2.5:1.5b). claude = Anthropic API (pip install anthropic + API key). If the chosen LLM is unavailable, the demo falls back to offline."
+}

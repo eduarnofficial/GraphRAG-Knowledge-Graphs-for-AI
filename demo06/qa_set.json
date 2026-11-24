@@ -1,0 +1,11 @@
+[
+  {"id": "Q1", "hops": 1, "question": "Which medicines does Asha Rao take?",
+   "gold": ["Asha Rao TAKES Warfarin", "Asha Rao TAKES Lisinopril"]},
+  {"id": "Q2", "hops": 2, "question": "Why is Ibuprofen risky for Chen Li?",
+   "gold": ["Chen Li TAKES Warfarin", "Warfarin INTERACTS_WITH Ibuprofen"]},
+  {"id": "Q3", "hops": 3, "question": "How is Dr. Mehta linked to Aspirin?",
+   "gold": ["Chen Li TREATED_BY Dr. Mehta", "Chen Li TAKES Warfarin", "Warfarin INTERACTS_WITH Aspirin"]},
+  {"id": "Q4", "hops": 3, "question": "How is Dr. Okafor's patient affected by Ibuprofen?",
+   "gold": ["Asha Rao TREATED_BY Dr Okafor", "Asha Rao TAKES Warfarin", "Warfarin INTERACTS_WITH Ibuprofen",
+            "Asha Rao TAKES Lisinopril", "Ibuprofen INTERACTS_WITH Lisinopril"]}
+]

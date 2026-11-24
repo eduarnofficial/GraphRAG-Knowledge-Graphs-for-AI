@@ -1,0 +1,38 @@
+{
+  "entity_types": {
+    "Vendor": "A supplier that Acme Corp pays",
+    "Company": "Any other legal entity (holding company, fund, trader)",
+    "Person": "An individual (employee or company director)",
+    "Address": "A registered address"
+  },
+  "relations": {
+    "OWNED_BY":      {"domain": ["Vendor", "Company"], "range": ["Company"], "description": "subject is owned by object"},
+    "DIRECTOR_OF":   {"domain": ["Person"], "range": ["Company", "Vendor"], "description": "subject sits on the board of object"},
+    "APPROVED":      {"domain": ["Person"], "range": ["Vendor"], "description": "subject approved onboarding of the vendor"},
+    "REGISTERED_AT": {"domain": ["Vendor", "Company"], "range": ["Address"], "description": "legal registered address"}
+  },
+  "properties": {
+    "risk": "Vendor risk rating (low / medium / high)",
+    "service": "What the vendor supplies",
+    "role": "Job title of an employee",
+    "sanctions_list": "Name of the sanctions list an entity appears on",
+    "sanctioned": "true if the entity is on any sanctions list"
+  },
+  "exposure_relations": ["OWNED_BY", "DIRECTOR_OF", "REGISTERED_AT"],
+  "entities": {
+    "Apex Logistics": "Vendor",
+    "BrightPath Supplies": "Vendor",
+    "Cobalt IT Services": "Vendor",
+    "Delta Facility Management": "Vendor",
+    "Evergreen Packaging": "Vendor",
+    "Northwind Holdings": "Company",
+    "Silverline Capital": "Company",
+    "Orion Ventures": "Company",
+    "Kestrel Trading FZE": "Company",
+    "Ravi Mehta": "Person",
+    "Anita Desai": "Person",
+    "Viktor Petrov": "Person",
+    "Maria Lopez": "Person",
+    "Lena Novak": "Person"
+  }
+}

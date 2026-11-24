@@ -1,0 +1,5 @@
+id,name,kind,country,sanctioned,sanctions_list
+C1,Northwind Holdings,Holding company,Cyprus,false,
+C2,Silverline Capital,Investment firm,Malta,false,
+C3,Orion Ventures,Venture fund,Netherlands,false,
+C4,Kestrel Trading FZE,Commodities trader,UAE,true,OFAC

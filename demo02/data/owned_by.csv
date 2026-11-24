@@ -1,0 +1,4 @@
+from_id,from_label,to_id,share_pct,since
+V1,Vendor,C1,100,2019
+C1,Company,C2,75,2016
+V5,Vendor,C3,60,2021

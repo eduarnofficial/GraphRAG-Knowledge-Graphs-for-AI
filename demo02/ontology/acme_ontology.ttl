@@ -1,0 +1,61 @@
+# =====================================================================
+#  Acme procurement ONTOLOGY (RDF Schema + a little OWL), Turtle format
+# =====================================================================
+#  How to read Turtle:
+#    subject  predicate  object .        <- one triple (one fact)
+#    ;  means "same subject, next predicate"
+#    a  is short for rdf:type ("is a")
+#
+#  The ontology is the SCHEMA. It says which kinds of things exist (classes),
+#  how they can be linked (properties with domain -> range), and what values
+#  they carry (datatype properties).
+# =====================================================================
+
+@prefix acme: <http://example.org/acme#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+acme:  a owl:Ontology ;
+       rdfs:label "Acme procurement ontology" .
+
+# ---------- Classes (the kinds of things) ----------------------------
+acme:Organization a owl:Class ;
+    rdfs:comment "Any legal entity." .
+
+# A class hierarchy: every Vendor IS an Organization, so is every Company.
+# A query for Organizations can find vendors and companies without listing them.
+acme:Vendor  a owl:Class ; rdfs:subClassOf acme:Organization ;
+    rdfs:comment "A supplier Acme pays." .
+acme:Company a owl:Class ; rdfs:subClassOf acme:Organization ;
+    rdfs:comment "Holding company, fund, trader ..." .
+
+acme:Person  a owl:Class .
+acme:Address a owl:Class .
+
+# An Ownership is a "relationship turned into a node" (an n-ary relation).
+# RDF triples cannot carry properties, so to record WHO owns WHAT with WHICH share
+# we create a small node for the ownership stake itself.
+acme:Ownership a owl:Class ;
+    rdfs:comment "One ownership stake: owner, owned entity, share, since." .
+
+# ---------- Object properties (links between things) -----------------
+# rdfs:domain = type of the subject,  rdfs:range = type of the object.
+acme:ownedBy      a owl:ObjectProperty ; rdfs:domain acme:Organization ; rdfs:range acme:Company .
+acme:directorOf   a owl:ObjectProperty ; rdfs:domain acme:Person       ; rdfs:range acme:Organization .
+acme:approved     a owl:ObjectProperty ; rdfs:domain acme:Person       ; rdfs:range acme:Vendor .
+acme:registeredAt a owl:ObjectProperty ; rdfs:domain acme:Organization ; rdfs:range acme:Address .
+
+acme:ownedEntity  a owl:ObjectProperty ; rdfs:domain acme:Ownership ; rdfs:range acme:Organization .
+acme:owner        a owl:ObjectProperty ; rdfs:domain acme:Ownership ; rdfs:range acme:Company .
+
+# ---------- Datatype properties (values) -----------------------------
+acme:name          a owl:DatatypeProperty ; rdfs:range xsd:string .
+acme:risk          a owl:DatatypeProperty ; rdfs:domain acme:Vendor  ; rdfs:range xsd:string .
+acme:country       a owl:DatatypeProperty ; rdfs:range xsd:string .
+acme:sanctioned    a owl:DatatypeProperty ; rdfs:domain acme:Company ; rdfs:range xsd:boolean .
+acme:sanctionsList a owl:DatatypeProperty ; rdfs:domain acme:Company ; rdfs:range xsd:string .
+acme:role          a owl:DatatypeProperty ; rdfs:domain acme:Person  ; rdfs:range xsd:string .
+acme:sharePct      a owl:DatatypeProperty ; rdfs:domain acme:Ownership ; rdfs:range xsd:decimal .
+acme:since         a owl:DatatypeProperty ; rdfs:range xsd:integer .

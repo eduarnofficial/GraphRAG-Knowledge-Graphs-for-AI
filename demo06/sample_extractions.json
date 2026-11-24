@@ -1,0 +1,28 @@
+{
+  "_note": "Hand-written example of what an LLM extracts from each document (same JSON format as demo03). Names are deliberately messy (Ms. Rao, Chen, warfarin, Dr Okafor) so entity resolution has work to do.",
+  "patient_note_asha": [
+    ["Asha Rao", "Patient", "TAKES", "Warfarin", "Drug"],
+    ["Asha Rao", "Patient", "HAS_CONDITION", "Atrial fibrillation", "Condition"],
+    ["Ms. Rao", "Patient", "TAKES", "Lisinopril", "Drug"],
+    ["Ms. Rao", "Patient", "HAS_CONDITION", "High blood pressure", "Condition"]
+  ],
+  "patient_note_chen": [
+    ["Chen Li", "Patient", "TAKES", "Warfarin", "Drug"],
+    ["Chen Li", "Patient", "TAKES", "Amiodarone", "Drug"],
+    ["Chen", "Patient", "HAS_CONDITION", "Osteoarthritis", "Condition"]
+  ],
+  "drug_label_warfarin": [
+    ["Warfarin", "Drug", "INTERACTS_WITH", "Ibuprofen", "Drug"],
+    ["Warfarin", "Drug", "INTERACTS_WITH", "Aspirin", "Drug"],
+    ["Amiodarone", "Drug", "INTERACTS_WITH", "warfarin", "Drug"]
+  ],
+  "drug_label_ibuprofen": [
+    ["Ibuprofen", "Drug", "TREATS", "Osteoarthritis", "Condition"],
+    ["Ibuprofen", "Drug", "INTERACTS_WITH", "Lisinopril", "Drug"]
+  ],
+  "prescribing_policy": [],
+  "clinic_roster": [
+    ["Chen Li", "Patient", "TREATED_BY", "Dr. Mehta", "Doctor"],
+    ["Asha Rao", "Patient", "TREATED_BY", "Dr Okafor", "Doctor"]
+  ]
+}

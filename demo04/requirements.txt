@@ -1,0 +1,7 @@
+kuzu==0.11.3
+networkx>=3.0
+scikit-learn>=1.2
+# optional, only for  "llm": "claude"  in config.json
+# anthropic
+# optional, only for  "engine": "microsoft"  (see ms_graphrag/README.md)
+# graphrag

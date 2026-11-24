@@ -1,0 +1,7 @@
+id,name,drug_class
+D1,Warfarin,Anticoagulant
+D2,Aspirin,Antiplatelet
+D3,Metformin,Antidiabetic
+D4,Lisinopril,ACE inhibitor
+D5,Ibuprofen,NSAID
+D6,Amiodarone,Antiarrhythmic

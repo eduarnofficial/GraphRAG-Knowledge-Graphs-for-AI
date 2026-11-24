@@ -1,0 +1,7 @@
+patient_id,drug_id,dose_mg,since
+PT1,D1,5,2022
+PT1,D4,10,2021
+PT2,D3,500,2020
+PT2,D4,20,2019
+PT3,D1,3,2023
+PT3,D6,200,2023

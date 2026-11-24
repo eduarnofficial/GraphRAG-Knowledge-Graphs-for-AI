@@ -1,0 +1,16 @@
+source,relation,target,chunk
+Apex Logistics,OWNED_BY,Northwind Holdings,C1
+Northwind Holdings,OWNED_BY,Silverline Capital,C1
+Viktor Petrov,DIRECTOR_OF,Silverline Capital,C2
+Maria Lopez,DIRECTOR_OF,Silverline Capital,C2
+Viktor Petrov,DIRECTOR_OF,Kestrel Trading,C3
+Kestrel Trading,ON_SANCTIONS_LIST,OFAC,C3
+Cobalt IT Services,REGISTERED_AT,14 Harbour Road,C4
+Kestrel Trading,REGISTERED_AT,14 Harbour Road,C4
+Evergreen Packaging,OWNED_BY,Orion Ventures,C5
+Lena Novak,DIRECTOR_OF,Orion Ventures,C5
+Anita Desai,APPROVED,BrightPath Supplies,C6
+Anita Desai,APPROVED,Delta Facility Management,C6
+Ravi Mehta,APPROVED,Apex Logistics,C7
+Ravi Mehta,APPROVED,Cobalt IT Services,C7
+Ravi Mehta,APPROVED,Delta Facility Management,C7

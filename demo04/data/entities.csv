@@ -1,0 +1,17 @@
+name,type
+Apex Logistics,Vendor
+Cobalt IT Services,Vendor
+Evergreen Packaging,Vendor
+BrightPath Supplies,Vendor
+Delta Facility Management,Vendor
+Northwind Holdings,Company
+Silverline Capital,Company
+Kestrel Trading,Company
+Orion Ventures,Company
+Viktor Petrov,Person
+Maria Lopez,Person
+Lena Novak,Person
+Anita Desai,Person
+Ravi Mehta,Person
+14 Harbour Road,Address
+OFAC,SanctionsList

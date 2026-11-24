@@ -1,0 +1,92 @@
+[
+  {
+    "id": "D01",
+    "title": "Vendor master record - Apex Logistics",
+    "source": "ERP / vendor master",
+    "text": "Apex Logistics is a vendor providing freight and warehousing services. Apex Logistics has a risk rating of medium. Apex Logistics is owned by Northwind Holdings. Payments to Apex Logistics totalled 1.2 million dollars in FY2025."
+  },
+  {
+    "id": "D02",
+    "title": "Vendor master record - BrightPath Supplies",
+    "source": "ERP / vendor master",
+    "text": "BrightPath Supplies is a vendor providing office supplies and stationery. BrightPath Supplies has a risk rating of low. BrightPath Supplies is registered at 22 King Street, Manchester."
+  },
+  {
+    "id": "D03",
+    "title": "Vendor master record - Cobalt IT Services",
+    "source": "ERP / vendor master",
+    "text": "Cobalt IT Services is a vendor providing IT support and cloud hosting. Cobalt IT Services has a risk rating of high. Cobalt IT Services is registered at 14 Harbour Road, Limassol."
+  },
+  {
+    "id": "D04",
+    "title": "Vendor master record - Delta Facility Management",
+    "source": "ERP / vendor master",
+    "text": "Delta Facility Management is a vendor providing cleaning and facility services. Delta Facility Management has a risk rating of low. Delta Facility Management is registered at 9 Mill Lane, Leeds."
+  },
+  {
+    "id": "D05",
+    "title": "Vendor master record - Evergreen Packaging",
+    "source": "ERP / vendor master",
+    "text": "Evergreen Packaging is a vendor providing packaging materials. Evergreen Packaging has a risk rating of low. Evergreen Packaging is owned by Orion Ventures."
+  },
+  {
+    "id": "D06",
+    "title": "Corporate registry extract - Northwind Holdings",
+    "source": "Corporate registry",
+    "text": "Northwind Holdings is a holding company incorporated in Cyprus. Northwind Holdings is owned by Silverline Capital."
+  },
+  {
+    "id": "D07",
+    "title": "Corporate registry extract - Silverline Capital",
+    "source": "Corporate registry",
+    "text": "Silverline Capital is a private investment firm. Viktor Petrov is a director of Silverline Capital. Maria Lopez is a director of Silverline Capital."
+  },
+  {
+    "id": "D08",
+    "title": "Corporate registry extract - Orion Ventures",
+    "source": "Corporate registry",
+    "text": "Orion Ventures is a venture fund focused on sustainable manufacturing. Lena Novak is a director of Orion Ventures."
+  },
+  {
+    "id": "D09",
+    "title": "Sanctions screening bulletin - November 2025",
+    "source": "Compliance feed",
+    "text": "Kestrel Trading FZE is listed on the OFAC sanctions list. Kestrel Trading FZE is registered at 14 Harbour Road, Limassol."
+  },
+  {
+    "id": "D10",
+    "title": "Business press article - commodities traders",
+    "source": "News",
+    "text": "Business press, March 2025. Viktor Petrov is a director of Kestrel Trading FZE. The article describes the firm as a commodities trader operating out of Dubai."
+  },
+  {
+    "id": "D11",
+    "title": "Procurement approvals log - Q1",
+    "source": "Procurement system",
+    "text": "Ravi Mehta approved the onboarding of Apex Logistics. Anita Desai approved the onboarding of BrightPath Supplies."
+  },
+  {
+    "id": "D12",
+    "title": "Procurement approvals log - Q2",
+    "source": "Procurement system",
+    "text": "Ravi Mehta approved the onboarding of Cobalt IT Services. Ravi Mehta approved the onboarding of Delta Facility Management. Anita Desai approved the onboarding of Evergreen Packaging."
+  },
+  {
+    "id": "D13",
+    "title": "HR directory",
+    "source": "HR system",
+    "text": "Ravi Mehta is the procurement manager at Acme Corp. Anita Desai is the chief financial officer at Acme Corp."
+  },
+  {
+    "id": "D14",
+    "title": "Sanctions compliance policy",
+    "source": "Policy library",
+    "text": "Acme Corp sanctions compliance policy, version 3. All vendors must be screened against sanctions lists before onboarding. Vendors connected to a sanctioned entity through ownership, directors or shared addresses must be escalated to compliance. Screening of all vendors is repeated annually."
+  },
+  {
+    "id": "D15",
+    "title": "Vendor risk policy",
+    "source": "Policy library",
+    "text": "Vendor risk ratings are reviewed by the procurement team each quarter. High risk vendors require a second approval from the chief financial officer."
+  }
+]
