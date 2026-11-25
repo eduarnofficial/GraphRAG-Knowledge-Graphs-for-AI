@@ -1,0 +1,20 @@
+id,source,relation,target,chunk
+F1,Apex Logistics,OWNED_BY,Northwind Holdings,C1
+F2,Northwind Holdings,OWNED_BY,Silverline Capital,C1
+F3,Viktor Petrov,DIRECTOR_OF,Silverline Capital,C2
+F4,Maria Lopez,DIRECTOR_OF,Silverline Capital,C2
+F5,Viktor Petrov,DIRECTOR_OF,Kestrel Trading,C3
+F6,Kestrel Trading,ON_SANCTIONS_LIST,OFAC,C3
+F7,Cobalt IT Services,REGISTERED_AT,14 Harbour Road,C4
+F8,Kestrel Trading,REGISTERED_AT,14 Harbour Road,C4
+F9,Evergreen Packaging,OWNED_BY,Orion Ventures,C5
+F10,Lena Novak,DIRECTOR_OF,Orion Ventures,C5
+F11,Anita Desai,APPROVED,BrightPath Supplies,C6
+F12,Anita Desai,APPROVED,Delta Facility Management,C6
+F13,Ravi Mehta,APPROVED,Apex Logistics,C7
+F14,Ravi Mehta,APPROVED,Cobalt IT Services,C7
+F15,Ravi Mehta,APPROVED,Delta Facility Management,C7
+F17,Delta Facility Management,SUBCONTRACTS_TO,Zenith Cleaning Co.,C9
+F18,Zenith Cleaning Co.,PAYS_THROUGH,Harbor Pay Ltd,C10
+F19,Omar Haddad,CONTROLS,Harbor Pay Ltd,C11
+F20,Omar Haddad,SHAREHOLDER_OF,Kestrel Trading,C11

@@ -1,0 +1,4 @@
+networkx>=3.0
+scikit-learn>=1.2
+# optional, for real RAGAS scoring with an LLM judge:
+# ragas

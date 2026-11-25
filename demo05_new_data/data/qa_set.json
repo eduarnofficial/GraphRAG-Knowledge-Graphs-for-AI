@@ -1,0 +1,10 @@
+[
+  {"id": "Q1", "hops": 1, "question": "Who approved Cobalt IT Services?", "gold_facts": ["F14"], "gold_answer": "Ravi Mehta"},
+  {"id": "Q2", "hops": 2, "question": "How is Cobalt IT Services linked to Kestrel Trading?", "gold_facts": ["F7", "F8"], "gold_answer": "They share the office at 14 Harbour Road"},
+  {"id": "Q3", "hops": 3, "question": "How is Cobalt IT Services linked to OFAC?", "gold_facts": ["F7", "F8", "F6"], "gold_answer": "Shared office with Kestrel Trading, which is on the OFAC list"},
+  {"id": "Q4", "hops": 3, "question": "How is Apex Logistics linked to Viktor Petrov?", "gold_facts": ["F1", "F2", "F3"], "gold_answer": "Apex -> Northwind -> Silverline, where Petrov is a director"},
+  {"id": "Q5", "hops": 5, "question": "How is Apex Logistics linked to OFAC?", "gold_facts": ["F1", "F2", "F3", "F5", "F6"], "gold_answer": "Apex -> Northwind -> Silverline -> Petrov -> Kestrel -> OFAC"},
+  {"id": "Q6", "hops": 1, "question": "Who does Delta Facility Management subcontract to?", "gold_facts": ["F17"], "gold_answer": "Zenith Cleaning Co."},
+  {"id": "Q7", "hops": 3, "question": "How is Delta Facility Management linked to Omar Haddad?", "gold_facts": ["F17", "F18", "F19"], "gold_answer": "Delta -> Zenith Cleaning -> Harbor Pay, which Omar Haddad controls"},
+  {"id": "Q8", "hops": 5, "question": "How is Delta Facility Management linked to OFAC?", "gold_facts": ["F17", "F18", "F19", "F20", "F6"], "gold_answer": "Delta -> Zenith -> Harbor Pay -> Omar Haddad -> Kestrel Trading -> OFAC"}
+]
