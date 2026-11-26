@@ -1,6 +1,10 @@
 
 # 🚀 GraphRAG & Knowledge Graphs for AI
 
+<img width="1280" height="960" alt="RAG-Graph-RAG-Training-Hexaware" src="https://github.com/user-attachments/assets/d4faba30-9e1c-44b9-93b3-b97ea1d337bf" />
+
+Thanks @[hexawareteam](https://hexaware.com/) Team
+
 ### Building Intelligent AI Applications with Knowledge Graphs, Neo4j, and Retrieval-Augmented Generation
 
 Welcome to **GraphRAG & Knowledge Graphs for AI** — a practical learning repository designed to explore how Knowledge Graphs and Graph-based Retrieval-Augmented Generation (GraphRAG) can enhance modern AI applications.
