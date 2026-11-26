@@ -1,6 +1,6 @@
 {
   "engine": "mini",
-  "llm": "offline",
+  "llm": "ollama",
   "model": "claude-opus-5-5",
   "ollama_model": "qwen2.5:1.5b",
   "ollama_url": "http://localhost:11434",

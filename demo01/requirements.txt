@@ -1,4 +1,4 @@
-networkx>=3.0
-scikit-learn>=1.2
-scipy>=1.10
-flask>=2.2
+networkx>=3.0       # Graph creation, manipulation, and network analysis
+scikit-learn>=1.2   # TF-IDF vectorization and similarity-based retrieval
+scipy>=1.10         # Scientific computing and sparse matrix operations
+flask>=2.2          # Lightweight web framework for building APIs and web applications

@@ -58,6 +58,16 @@ After extraction, every relation is checked against the Module 2 rules. For exam
    `Maria Lopez is also a director of Orion Ventures. Orion Ventures owns Evergreen Packaging Ltd.`
 2. Add its facts to the graph in one of two ways:
    - **Offline:** act as the LLM. Add a `"board_minutes#1"` entry to `sample_extractions.json` in the same format as the others.
+  "entities": [
+    {"name": "Maria Lopez", "type": "Person"},
+    {"name": "Orion Ventures", "type": "Company"},
+    {"name": "Evergreen Packaging Ltd", "type": "Company"}
+  ],
+  "relations": [
+    {"source": "Maria Lopez", "relation": "DIRECTOR_OF", "target": "Orion Ventures"},
+    {"source": "Orion Ventures", "relation": "OWNS", "target": "Evergreen Packaging Ltd"}
+  ]
+  },
    - **Live:** run `python build_kg.py --live`. Claude extracts the facts for you.
 3. Run the script again and check:
    - Did "Evergreen Packaging Ltd" and "Orion Ventures" get new nodes?

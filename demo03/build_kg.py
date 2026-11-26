@@ -32,7 +32,7 @@ RELATION_TYPES = ["OWNED_BY", "DIRECTOR_OF", "APPROVED", "REGISTERED_AT", "ON_SA
 # Domain -> range rules from the Module 2 schema: which entity types each relation may connect.
 RULES = {"OWNED_BY": ("Company", "Company"), "DIRECTOR_OF": ("Person", "Company"),
          "APPROVED": ("Person", "Company"), "REGISTERED_AT": ("Company", "Address"),
-         "ON_SANCTIONS_LIST": ("Company", "SanctionsList")}
+         "ON_SANCTIONS_LIST": ("Company", "SanctionsList"), "OWNS": ("Company", "Company"),}
 
 
 # =============================================================================
