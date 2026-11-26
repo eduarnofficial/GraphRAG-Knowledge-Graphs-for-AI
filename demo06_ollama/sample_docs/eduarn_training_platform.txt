@@ -1,0 +1,23 @@
+Company Profile: EduArn and Cloudnixia
+
+EduArn is a learning management system for online, retail and corporate training. EduArn is operated by Cloudnixia Software Solutions.
+
+Cloudnixia Software Solutions was founded in 2018 by Neeshi Kumar. Cloudnixia Software Solutions is based in India.
+
+Vinod Kumar is the Chief Technology Officer of EduArn. Vinod Kumar is also the Lead Instructor at Cloudnixia Software Solutions.
+
+Vinod Kumar teaches the AWS Solutions Architect Associate course. The AWS Solutions Architect Associate course prepares learners for the SAA-C03 exam. The SAA-C03 exam is run by Amazon Web Services.
+
+Vinod Kumar also teaches the Terraform with AWS course. The Terraform with AWS course prepares learners for the Terraform Associate exam. The Terraform Associate exam is run by HashiCorp.
+
+The AZ-400 course prepares learners for the Microsoft DevOps Engineer Expert certification. The Microsoft DevOps Engineer Expert certification requires the Azure Administrator Associate certification or the Azure Developer Associate certification.
+
+Richa Agrawal is a corporate and retail trainer at Cloudnixia Software Solutions. Sylveena Dutta is a soft skills trainer at Cloudnixia Software Solutions. Sylveena Dutta runs The Skills Mentorship.
+
+Gladius Globus is the SEO and web design partner of Cloudnixia Software Solutions. Abhijeet Kumar Mishra works in the engineering team of Cloudnixia Software Solutions.
+
+Cloudnixia Software Solutions delivered a Train the Trainer programme in Python, Data Analysis and Data Engineering. The Train the Trainer programme was attended by faculty of Sri Manakula Vinayagar Engineering College. Sri Manakula Vinayagar Engineering College is located in Puducherry.
+
+Cloudnixia Software Solutions runs multi-cloud training labs on AWS, Microsoft Azure and Google Cloud. The multi-cloud training labs are hosted on EduArn.
+
+The EduArn Standard plan costs 25,500 rupees for 6 months and supports up to 1,000 users. The EduArn Premium plan supports unlimited users for 12 months.
